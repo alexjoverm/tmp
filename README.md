@@ -1,22 +1,39 @@
-# Getting Started
+# Getting Started - React edition
 
-> Repository of the Getting Started (Hello World) projects built with Storyblok and various frontend frameworks.
+This is a `Hello World` example project built with Storyblok and Next.js.
 
-Follow the instruction on [Storyblok Getting Started Page](https://www.storyblok.com/docs/guide/getting-started) to correctly configure your space and understand the basics of headless CMS approach.
+> To get better understanding of this project and how it works, read our [Getting Started guide](https://www.storyblok.com/docs/guide/getting-started/?utm_source=github.com&utm_medium=readme&utm_campaign=getting-started).
 
-**Our Getting Started covers following frameworks:**
+## Stackblitz
 
-- Next.js
-- Gatsby.js
-- Nuxt
-- React
+[Edit with Stackblitz ⚡️]()
 
-### Resources
+## Configuration Steps
 
-Visit our technology hubs for more tutorials and videos how to use Storyblok together with your favorite technology.
+1. [Create a new Space](https://app.storyblok.com/#!/me/spaces/new) in Storyblok
+2. Obtain a Preview Token from the Settings of the Space.
+3. Replace the `accessToken` value in `index.js` file with your Preview Token.
+4. You can start a Dev Server with your React project, and it will consume data from your Storyblok Space.
 
-- [Next.js Hub](https://www.storyblok.com/tc/nextjs)
-- [Gatsby.js Hub](https://www.storyblok.com/tc/gatsbyjs)
-- [Nuxt Hub](https://www.storyblok.com/tc/nuxtjs)
-- [React Hub](https://www.storyblok.com/tc/react)
-- For other languages/frameworks check the tutorial on our [technology page overview](https://www.storyblok.com/technologies)
+## Learn More
+
+To learn more about React and Storyblok, take a look at the following resources:
+
+- [React Documentation](https://reactjs.org/docs/getting-started.html) 
+- [Storyblok Tutorial](https://www.storyblok.com/tp/add-a-headless-cms-to-react-in-5-minutes)
+
+## Build Setup
+
+```sh
+  # to run in developer mode
+  $ npm run start # or yarn start
+ ```
+
+ ```sh
+  # to build the project
+  $ npm run build # or yarn build
+ ```
+
+## Deploy on Vercel
+
+The easiest way to deploy your React app is to use the [Vercel Platform](https://vercel.com/import) from the creators of Next.js.
